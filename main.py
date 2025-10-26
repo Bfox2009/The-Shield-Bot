@@ -7,7 +7,7 @@ from discord_interactions import InteractionType, InteractionResponseType, verif
 DISCORD_PUBLIC_KEY = os.environ["DISCORD_PUBLIC_KEY"]
 CLASH_API_TOKEN = os.environ["CLASH_API_TOKEN"]
 
-API_BASE = "https://api.clashroyale.com/v1"
+API_BASE = "https://proxy.royaleapi.dev/v1/"
 headers = {"Authorization": f"Bearer {CLASH_API_TOKEN}"}
 
 # Local player data store
